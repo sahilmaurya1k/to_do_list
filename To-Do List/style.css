@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;500&family=Inconsolata&family=Roboto+Mono:wght@100;200;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+}
+
+html body {
+    background: #dfe6e9;
+}
+
+#main {
+    margin: auto;
+    margin-top: 50px;
+    background-color: #f5f6fa;
+    width: 300px;
+    height: 500px;
+    color: #8c7ae6;
+    padding: 8px;
+    border: 1px dashed #9f98c3c6;
+    justify-content: center;
+}
+
+#main h1 {
+    font-weight: 500;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.input {
+    padding: 10px 10px 15px 7px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    font-family: 'Barlow';
+}
+
+.input input {
+    height: 20px;
+    width: 280px;
+    padding-left: 5px;
+    margin-right: 10px;
+    border: 0px solid #9f98c3c6;
+    border-radius: 3px;
+}
+
+li {
+    margin: 10px 5px;
+    list-style: none;
+    background-color: #a29bfe;
+    color: #f9fafa;
+    font-size: 15px;
+    font-weight: 300px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.icon {
+    color: #f9fafa;
+    margin-top: 1px;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin-top: 1px;
+    cursor: pointer;
+}
